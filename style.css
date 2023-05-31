@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    justify-content: center;
+    align-items: center;
+}
+
+canvas {
+    position: absolute;
+}
+
+.container {
+    width: 800px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+
+#btn {
+    font-weight: 600;
+    font-size: 20px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+}
+
+#login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#loginBox {
+    width: 400px;
+    height: 400px;
+    border-radius: 250px;
+    box-shadow: 0 0 10px black;
+}
+
+#video {
+    object-fit: fill;
+    border-radius: 50%;
+}
+
+.svg:hover {
+    color: black;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
